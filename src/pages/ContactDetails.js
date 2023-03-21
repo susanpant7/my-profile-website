@@ -14,7 +14,7 @@ import styles from "../styles/ContactDetails.module.css";
 
 const ContactDetails = () => {
   return (
-    <div className={styles.container}>
+    <div className='box'>
       <div className={styles.row}>
         <div className={styles.icon}>
           <FontAwesomeIcon icon={faEnvelope} />
@@ -39,7 +39,7 @@ const ContactDetails = () => {
           <p>Kathmandu, Nepal</p>
         </div>
       </div>
-      <div className={styles.row}>
+      <div className={styles.socialMedia}>
         <div className={styles.icon}>
           <a href="https://www.facebook.com/susan.pant.58">
             <FontAwesomeIcon icon={faFacebook} />

@@ -9,11 +9,10 @@ const Experience = () => {
           <FontAwesomeIcon icon={faBriefcase} /> WORK EXPERIENCE
         </h2>
         <div className="work-item">
-          <h3>Senior Software Engineer</h3>
+          <h3>Senior Software Engineer (Full Stack web developer)</h3>
           <p>Cedar Gate Technologies</p>
           <p>04/2018 - Present</p>
           <ul>
-            <li>Working as a full stack web developer</li>
             <li>
               Develop and manage web applications using Grails, Blazor, ASP
               .NET, and various programming languages for custom Rest API
@@ -45,7 +44,6 @@ const Experience = () => {
           <p>Metro Infosys</p>
           <p>05/2017 - 11/2017</p>
           <ul>
-            <li>Worked as a web developer</li>
             <li>
               Worked on web development projects using HTML, CSS, and
               Javascript.

@@ -1,7 +1,7 @@
 .skillsContainer {
     display: flex;
     flex-wrap: wrap;
-    background-color: #262728;
+    /* background-color: #262728; */
   }
   
   .skillBox {
