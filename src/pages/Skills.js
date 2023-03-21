@@ -23,6 +23,13 @@ const Skills = () => {
         <SkillsBox skill="ASP .NET" />
         <SkillsBox skill="MySQL" />
         <SkillsBox skill="ElasticSearch" />
+        <SkillsBox skill="Groovy" />
+        <SkillsBox skill="Java" />
+        <SkillsBox skill="C#" />
+        <SkillsBox skill="Python" />
+        <SkillsBox skill="React Js" />
+        <SkillsBox skill="React Native" />
+        <SkillsBox skill="jQuery" />
         <SkillsBox skill="Git" />
         <SkillsBox skill="Jira" />
         <SkillsBox skill="AWS" />
