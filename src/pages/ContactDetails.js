@@ -4,6 +4,8 @@ import {
   faEnvelope,
   faMobileAlt,
   faMapMarkerAlt,
+  faFileUser,
+  faFilePdf,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebook,
@@ -11,10 +13,11 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import styles from "../styles/ContactDetails.module.css";
+import DownloadPDF from "./DownloadPdf";
 
 const ContactDetails = () => {
   return (
-    <div className='box'>
+    <div className="box">
       <div className={styles.row}>
         <div className={styles.icon}>
           <FontAwesomeIcon icon={faEnvelope} />
@@ -56,6 +59,10 @@ const ContactDetails = () => {
           <a href="https://www.linkedin.com/in/susan-pant-518293170/">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
+        </div>
+
+        <div className={styles.icon}>
+          <DownloadPDF pdfUrl="susan_resume_1.pdf" />
         </div>
       </div>
     </div>
