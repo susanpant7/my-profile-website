@@ -13,9 +13,9 @@ const Experience = () => {
           <p>Cedar Gate Technologies</p>
           <p>04/2018 - Present</p>
           <ul>
-            <li>Worked as a full stack web developer</li>
+            <li>Working as a full stack web developer</li>
             <li>
-              Developed and managed web applications using Grails, Blazor, ASP
+              Develop and manage web applications using Grails, Blazor, ASP
               .NET, and various programming languages for custom Rest API
               creation.
             </li>
